@@ -86,7 +86,7 @@ function Header() {
                             <span>SERIES</span>
                         </a>
                     </NavMenu>
-                    <UserImg onClick={signOut} src='' />
+                    <UserImg onClick={signOut} src={userPhoto} />
                 </>
             }
         </Nav>
